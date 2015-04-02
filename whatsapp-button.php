@@ -8,7 +8,7 @@
  Plugin URI: http://www.edc.org.kw
  Description: By using WhatsApp Button Plugin, you can add a share button for WhatsApp into posts/pages
  Version: 1.0
- Author: EDC
+ Author: EDC Team
  Author URI: http://www.edc.org.kw
  License: It is Free -_-
 */

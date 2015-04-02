@@ -1,5 +1,5 @@
 === WhatsApp Button ===
-Contributors: EDC
+Contributors: EDC Team
 Donate link: http://www.edc.org.kw
 Tags: WhatsApp, Button, Sharing, Content, EDC
 Requires at least: 3.0
