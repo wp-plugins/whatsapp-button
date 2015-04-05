@@ -16,7 +16,7 @@
 function whatsapp_button_plugin_install(){
 	add_option( 'whatsapp_button_size', 3, '', 'yes' ); 
 	add_option( 'whatsapp_button_allow', 1, '', 'yes' ); 
-	add_option( 'whatsapp_button_place', 1, '', 'yes' ); 
+	add_option( 'whatsapp_button_place', 0, '', 'yes' ); 
     add_option( 'whatsapp_button_start_element', '<div style="margin:10px 0 10px 0;">', '', 'yes' ); 
     add_option( 'whatsapp_button_end_element', '</div>', '', 'yes' ); 
 }
@@ -138,7 +138,7 @@ if(isset($_POST['submitted']) && $_POST['submitted'] == 1){
 	} else {
 		add_option( 'whatsapp_button_size', 1, null );
 		add_option( 'whatsapp_button_allow', 1, null );
-		add_option( 'whatsapp_button_place', 1, null );
+		add_option( 'whatsapp_button_place', 0, null );
 		add_option( 'whatsapp_button_start_element', '', null );
 		add_option( 'whatsapp_button_end_element', '', null );
 	}
