@@ -1,13 +1,13 @@
 <?php
 /**
  * @package WhatsApp Button
- * @version 1.0
+ * @version 1.1
  */
 /*
  Plugin Name: WhatsApp Button
  Plugin URI: http://www.edc.org.kw
  Description: By using WhatsApp Button Plugin, you can add a share button for WhatsApp into posts/pages
- Version: 1.0
+ Version: 1.1
  Author: EDC Team
  Author URI: http://www.edc.org.kw
  License: It is Free -_-
@@ -41,7 +41,7 @@ add_action('admin_head','whatsapp_button_adminHeader');
 function whatsapp_button_words($k=''){
 
 if ( get_option( 'WPLANG' ) == 'ar'){
-$word['title'] = 'جلب البيانات';
+$word['title'] = 'مشاركة بـ WhatsApp';
 $word['start'] = 'بداية الكود, تستطيع استخدام العناصر h1,h2,div,p';
 $word['end'] = 'نهاية العنصر';
 $word['size'] = 'حجم الزر';
